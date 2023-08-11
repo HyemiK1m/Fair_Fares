@@ -6,7 +6,7 @@ This repository contains the source code to reproduce the findings presented in 
 
 The code utilizes the **Pyomo** library to address both convex and non-convex optimization challenges. We employ the **Couenne** (global solver) and **Ipopt** (local solver) optimization solvers. While the codebase is tailored for usage with **Colab**, you have the flexibility to execute it locally by setting up the necessary libraries, such as pyomo.
 
-## Theoretical Insights
+## Theoretical Analysis
 
 ### Notation
 
