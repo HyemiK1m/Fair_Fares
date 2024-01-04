@@ -4,14 +4,14 @@ This repository contains the source code to reproduce the findings presented in 
 
 ## Experimental Setup
 
-The code utilizes the **Pyomo** library to address both convex and non-convex optimization challenges. We employ the **Couenne** (global solver) and **Ipopt** (local solver) optimization solvers. While the codebase is tailored for usage with **Colab**, you have the flexibility to execute it locally by setting up the necessary libraries, such as pyomo.
+Some code files utilize the **Pyomo** library to address non-convex optimization challenges. We employ the **Couenne** (global solver) and **Ipopt** (local solver) optimization solvers. While the codebase is tailored for usage with **Colab**, you have the flexibility to execute it locally by setting up the necessary libraries, such as pyomo.
 
 ## Theoretical Analysis
 
 ### Notation
 
-- N: Number of locations (nodes)
-- K: Number of vehicles (units)
+- $N$: Number of locations (nodes)
+- $K$: Number of vehicles (units)
 
 ### Characterized_Region.ipynb (Figure 1 & 4)
 
@@ -21,34 +21,37 @@ Visualizes characterized regions demonstrating price fairness implications for b
 
 - Fairness Metrics: Price & Access
 - Demand Function: Linear Demand
-- N = 2, K = 1
+- $N = 2$, $K = 1$
+- (brute-force version) 
 
 ### Stylized_Linear_K.ipynb (Figure 3)
 
 - Fairness Metrics: Price & Access
 - Demand Function: Linear Demand
-- N = 2, K >= 1
+- $N = 2$, $K \geq 1$
+- (brute-force version) 
 
-### Stylized_Exponential.ipynb
+### Stylized_Exponential.ipynb (Figure 5 & 6)
 
 - Fairness Metrics: Price & Access
 - Demand Function: Exponential Demand
-- N = 2, K >= 1
+- $N = 2$, $K \geq 1$
+- (brute-force version) 
 
 ## Computational Analysis & Approximation
 
 ### Computational_Exponential.ipynb
 
-- Fairness Metrics: (trip / origin based) Price & Access
+- Fairness Metrics: (trip/origin based) Price & Access
 - Demand Function: Exponential Demand
-- N = 3, K >= 1
+- $N = 3$, $K \geq 1$
 
-### Logistic_Approximation.ipynb
-
-- Fairness Metrics: (trip / origin based) Price & Access
-- Demand Function: Logistic Demand
-- N >= 2, K >= 1
-- Approximation Framework
+[//]: # (### Logistic_Approximation.ipynb)
+[//]: # ()
+[//]: # (- Fairness Metrics: &#40;trip / origin based&#41; Price & Access)
+[//]: # (- Demand Function: Logistic Demand)
+[//]: # (- $N \geq 2$, $K \geq 1$)
+[//]: # (- Approximation Framework)
 
 ## Case Study
 
