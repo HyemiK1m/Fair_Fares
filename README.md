@@ -38,9 +38,9 @@ Visualizes characterized regions demonstrating price fairness implications for b
 - Demand Function: Exponential Demand
 - $N = 3$, $K \geq 1$
 
-### Exponential_Approximation.ipynb & Grid_Search (Figure 11 & 19)
+### Exponential_Approximation.ipynb & Exponential_Grid_Search (Figure 11 & 19)
 - Get an approximate solutions from _Exponential_Approximation.ipynb_
-- Using the approximated solutions, run grid search using file in _Grid_Search_
+- Using the approximated solutions, run _Exponential_Grid_Search.ipynb_ in _Grid_Search_
 
 [//]: # (### Logistic_Approximation.ipynb)
 [//]: # ()
