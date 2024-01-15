@@ -17,19 +17,22 @@ Visualizes characterized regions demonstrating price fairness implications for b
 - Fairness Metrics: Price & Access
 - Demand Function: Linear Demand
 - $N = 2$, $K = 1$
-- (brute-force version) 
 
 ### Stylized_Linear_K.ipynb (Figure 3 & 7)
 - Fairness Metrics: Price & Access
 - Demand Function: Linear Demand
 - $N = 2$, $K \geq 1$
-- (brute-force version) 
 
 ### Stylized_Exponential.ipynb (Figure 5 & 6 & 8)
 - Fairness Metrics: Price & Access
 - Demand Function: Exponential Demand
 - $N = 2$, $K \geq 1$
-- (brute-force version) 
+
+### Stylized_Grid.ipynb (Figure 2, 3, 5, 6, 7, 8)
+- Fairness Metrics: Price & Access
+- Demand Function: Linear & Exponential Demand
+- $N = 2$, $K = 1$
+- Perform a grid search on the stylized model without utilizing a solver
 
 ## Computational Analysis & Approximation
 
