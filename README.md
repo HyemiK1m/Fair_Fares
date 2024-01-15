@@ -1,4 +1,6 @@
 # Fair Fares for Vehicle Sharing Systems
+_Adam N. Elmachtoub and Hyemi Kim_
+
 This repository contains the source code to reproduce the findings presented in the research paper titled "Fair Fares for Vehicle Sharing Systems". For an in-depth understanding, please refer to the [full paper](link).
 
 ## Experimental Setup
