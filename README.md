@@ -1,7 +1,7 @@
 # Fair Fares for Vehicle Sharing Systems
 _Adam N. Elmachtoub and Hyemi Kim_
 
-This repository contains the source code to reproduce the findings presented in the research paper titled "Fair Fares for Vehicle Sharing Systems". For an in-depth understanding, please refer to the [full paper]([link](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4699813)).
+This repository contains the source code to reproduce the findings presented in the research paper titled "Fair Fares for Vehicle Sharing Systems". For an in-depth understanding, please refer to the [full paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4699813).
 
 ## Experimental Setup
 Some code files utilize the **Pyomo** library to address non-convex optimization challenges. We employ the **Couenne** (global solver) and **Ipopt** (local solver) optimization solvers. While the codebase is tailored for usage with **Colab**, you have the flexibility to execute it locally by setting up the necessary libraries, such as pyomo.
